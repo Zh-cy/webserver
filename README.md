@@ -1,11 +1,19 @@
 # webserver
+Basic Information
+------------------------------
+* epoll (LT & ET + non-block IO)
+* threadpool
+* syn & asyn Log
+* MySQL
+* Sign in & Sign up
+* timer to contrl the overtime client
 
 Structure
 ------------------------------
 
 <div align=left><img src="https://raw.githubusercontent.com/Zh-cy/images/master/WebServer/webserver.png" height="600" width="750" /> </div>
 
-Basic Config
+Config
 ------------------------------
 * **MySQL** 
 ```sql

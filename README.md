@@ -10,7 +10,6 @@ Basic Information
 
 Structure
 ------------------------------
-
 <div align=left><img src="https://raw.githubusercontent.com/Zh-cy/images/master/WebServer/webserver.png" height="600" width="750" /> </div>
 
 Config
@@ -35,13 +34,13 @@ Config
 * **path in http.cpp** 
 ```cpp
 // line 20
-const char *doc_root = "/path/to/your/dir"
+const char *doc_root = "/path/to/your/dir"(*)
 ```
 
 * **MySQL in main.c** 
 ```cpp
 // line 110
-connPool->init("localhost", "root(*)", "root(*)", "testdb(*)", 3306, 8);
+connPool->init("localhost", "root"(*), "root"(*), "testdb"(*), 3306, 8);
 ```
 
 Run

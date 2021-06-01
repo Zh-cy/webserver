@@ -49,6 +49,9 @@ Run
 * **compile**  
 make
 
+* **clean** 
+make clean
+
 * **launch**  
 (8888 recommended)  
 ./server 8888

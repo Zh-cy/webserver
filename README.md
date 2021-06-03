@@ -52,5 +52,5 @@ make
 make clean
 
 * **launch**  
-(8888 recommended)  
+(>8000 recommended)  
 ./server 8888
